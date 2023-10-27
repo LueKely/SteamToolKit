@@ -12,12 +12,16 @@
 
 ## WHAT IS INTIGRATED?
 
-Google translate: - you can translate game descriptions with the `googletrans` api when using the `game details` command
-example command: - type `game details` - and enter the steam id of the game eg: `105600` - and choose the language of your choosing - if you don't know what the steam id of the game you'd like to see, you can always use the `search game` command
+Google translate: 
+- you can translate game descriptions with the `googletrans` api when using the `game details` command
+example command: 
+- type `game details` and enter the steam id of the game eg: `105600`
+- and choose the language of your choosing
+- if you don't know what the steam id of the game you'd like to see, you can always use the `search game` command
 to see what the steam id of the game
 
-QR Code: - when getting the info of a user using the `search user` there is an option to save the user's profile picture as a qr code
-use the `qrcode` api.
+QR Code: 
+- when getting the info of a user using the `search user` there is an option to save the user's profile picture as a qr code use the `qrcode` api.
 
 ## IF YOU DON'T HAVE ANY STEAM ID'S you know or have:
 
@@ -36,12 +40,10 @@ steam id for games:
 ## Setup
 
 ### setting up the environment
-
-in the terminal type:
-`python -m venv myenv`
-`myenv\Scripts\activate`
+  in the terminal type:
+    `python -m venv myenv`
+    `myenv\Scripts\activate`
 
 ### setting up the independencies
-
-    in the terminal type:
+  in the terminal type:
       `pip install -r requirements.txt`
